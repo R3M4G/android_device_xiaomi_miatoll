@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_kernel_xiaomi_sm6250",
+    "repository": "positron_miatoll",
     "target_path": "kernel/xiaomi/sm6250"
   },
   {
