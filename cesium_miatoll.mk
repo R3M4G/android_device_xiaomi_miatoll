@@ -8,10 +8,12 @@
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+$(call inherit-product, vendor/cesium/config/common_full_phone.mk)
 
 # Bootanimation Resolution
-scr_resolution := 1080
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Device identifier
 PRODUCT_NAME := yaap_miatoll
