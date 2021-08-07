@@ -16,7 +16,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Device identifier
-PRODUCT_NAME := yaap_miatoll
+PRODUCT_NAME := cesium_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Miatoll
